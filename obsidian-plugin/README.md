@@ -28,7 +28,7 @@ npm run build
 把下面这些文件复制到你的 vault：
 
 ```text
-YourVault/.obsidian/plugins/zotero-notes-to-obsidian/
+YourVault/.obsidian/plugins/zotero-notes-sync/
 ```
 
 需要复制的文件：

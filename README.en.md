@@ -91,7 +91,7 @@ npm run build
 For manual installation, copy `main.js`, `manifest.json`, and `styles.css` into:
 
 ```text
-YourVault/.obsidian/plugins/zotero-notes-to-obsidian/
+YourVault/.obsidian/plugins/zotero-notes-sync/
 ```
 
 ## Config File

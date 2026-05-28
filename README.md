@@ -93,7 +93,7 @@ npm run build
 手动安装时，把 `main.js`、`manifest.json`、`styles.css` 复制到：
 
 ```text
-YourVault/.obsidian/plugins/zotero-notes-to-obsidian/
+YourVault/.obsidian/plugins/zotero-notes-sync/
 ```
 
 ## 配置文件
