@@ -1,0 +1,6 @@
+{
+  "vault": "/path/to/Obsidian/My Vault",
+  "subdir": "Reading Notes/Zotero Notes",
+  "base_url": "http://127.0.0.1:23119/api/users/0",
+  "page_limit": 100
+}
