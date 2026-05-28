@@ -70,6 +70,32 @@ zotero-notes-to-obsidian --target "/path/to/Your Vault/Zotero Notes"
 zotero-notes-to-obsidian --vault "/path/to/Your Vault" --dry-run
 ```
 
+## Obsidian 插件
+
+仓库中也包含一个 Obsidian 插件版本，位于 [`obsidian-plugin/`](obsidian-plugin/)。
+
+插件版提供：
+
+- Obsidian ribbon 按钮一键同步
+- 命令面板同步命令
+- Zotero local API 检查命令
+- 设置页
+- 可选的启动同步和定时间隔同步
+
+构建：
+
+```bash
+cd obsidian-plugin
+npm install
+npm run build
+```
+
+手动安装时，把 `main.js`、`manifest.json`、`styles.css` 复制到：
+
+```text
+YourVault/.obsidian/plugins/zotero-notes-to-obsidian/
+```
+
 ## 配置文件
 
 复制示例配置并修改路径：

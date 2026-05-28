@@ -1,0 +1,9 @@
+.znto-sync-summary {
+  margin-top: 0.75rem;
+  color: var(--text-muted);
+  font-size: var(--font-ui-smaller);
+}
+
+.znto-sync-summary code {
+  color: var(--text-normal);
+}

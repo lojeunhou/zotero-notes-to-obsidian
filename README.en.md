@@ -68,6 +68,32 @@ Preview without writing files:
 zotero-notes-to-obsidian --vault "/path/to/Your Vault" --dry-run
 ```
 
+## Obsidian Plugin
+
+This repository also includes an Obsidian plugin version in [`obsidian-plugin/`](obsidian-plugin/).
+
+The plugin includes:
+
+- A ribbon button for one-click sync
+- A command palette sync command
+- A Zotero local API check command
+- A settings tab
+- Optional startup sync and interval sync while Obsidian is open
+
+Build it with:
+
+```bash
+cd obsidian-plugin
+npm install
+npm run build
+```
+
+For manual installation, copy `main.js`, `manifest.json`, and `styles.css` into:
+
+```text
+YourVault/.obsidian/plugins/zotero-notes-to-obsidian/
+```
+
 ## Config File
 
 Copy `config.example.json` and edit the paths:

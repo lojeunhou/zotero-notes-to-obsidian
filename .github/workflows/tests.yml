@@ -5,7 +5,7 @@ on:
   pull_request:
 
 jobs:
-  test:
+  python-test:
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -17,3 +17,17 @@ jobs:
           python-version: ${{ matrix.python-version }}
       - run: python -m pip install -e .
       - run: python -m unittest discover -s tests
+
+  obsidian-plugin-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: obsidian-plugin/package-lock.json
+      - run: npm ci
+        working-directory: obsidian-plugin
+      - run: npm run build
+        working-directory: obsidian-plugin

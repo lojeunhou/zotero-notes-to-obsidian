@@ -10,9 +10,14 @@ dist/
 .venv/
 venv/
 env/
+node_modules/
 
 # Local user config may contain private vault paths.
 config.json
+
+# Obsidian plugin build output.
+obsidian-plugin/main.js
+obsidian-plugin/main.js.map
 
 # macOS
 .DS_Store

@@ -1,0 +1,26 @@
+{
+  "name": "zotero-notes-to-obsidian-plugin",
+  "version": "0.1.0",
+  "description": "Obsidian plugin for syncing Zotero Desktop notes into the current vault.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production"
+  },
+  "keywords": [
+    "obsidian",
+    "zotero",
+    "markdown",
+    "notes",
+    "research"
+  ],
+  "author": "Lo Jeunhou",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "builtin-modules": "^5.2.0",
+    "esbuild": "^0.28.0",
+    "obsidian": "^1.12.3",
+    "typescript": "^6.0.3"
+  }
+}

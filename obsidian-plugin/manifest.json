@@ -1,0 +1,10 @@
+{
+  "id": "zotero-notes-to-obsidian",
+  "name": "Zotero Notes to Obsidian",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "Sync Zotero Desktop notes into your Obsidian vault as Markdown.",
+  "author": "Lo Jeunhou",
+  "authorUrl": "https://github.com/lojeunhou",
+  "isDesktopOnly": true
+}
